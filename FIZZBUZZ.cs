@@ -1,0 +1,15 @@
+public static string (int num)
+{
+    var answer = ""
+    if(num % 3 == 0)
+    {
+        answer = "fizz";
+    }
+    if(num % 5 == 0)
+    {
+        answer += "buzz";
+    }
+    return answer;
+
+
+}
